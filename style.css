@@ -44,7 +44,7 @@ img{
   font-size: .9rem;
   letter-spacing:.1rem;
   background-color: black;
-  font-color: white;
+  font-color: #ffffff;
 }
 
 .navbar-brand img {
@@ -54,7 +54,7 @@ img{
   padding-right: .7rem;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: white;
+  color: #ffffff;
   padding-top: .8rem;
 }
 .navbar-dark .navbar-nav .nav-link.active,
