@@ -140,15 +140,11 @@ img{
 /*--- Start Specialties --*/
 .our-special{
     margin-top: 8rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-gap: 2.5rem;
-}
+    display: grid;}
 
 .special{
     display: flex;
     flex-direction: column;
-    padding: 2rem;
 }
 
 .special h1{
