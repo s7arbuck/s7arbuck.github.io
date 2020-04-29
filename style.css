@@ -17,6 +17,7 @@ body{
 }
 
 section{
+    padding: 6rem 0;
     overflow-x: hidden;
 }
 
@@ -50,10 +51,9 @@ img{
   height: 2rem;
 }
 .navbar-nav li {
-  padding-right: .7rem;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: #ffffff;
+  color: white;
   padding-top: .8rem;
 }
 .navbar-dark .navbar-nav .nav-link.active,
