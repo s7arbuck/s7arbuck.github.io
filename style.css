@@ -113,7 +113,6 @@ img{
 
 .narrow {
   width: 75%;
-  margin: 1.5rem auto;
   padding-top: 2rem;
 }
 .narrow h1 {
@@ -186,7 +185,6 @@ img{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin: 1rem -2px 1rem 0;
   }
 
 .member-success-description h1{
@@ -194,14 +192,12 @@ img{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin: 1rem -2px 1rem 0;
 }
 
 .success-description h2{
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: 300;
-    margin: 2rem 0;
 }
 
 .member-success-description .cta{
@@ -312,8 +308,6 @@ img{
         flex-direction: column;
     }
 
-    li{
-        margin: 2rem 0;
     }
 
     .nav-link{
