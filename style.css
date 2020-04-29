@@ -275,19 +275,6 @@ img{
 
 /*--- Media Queries --*/
 
-
-@media screen and (prefers-color-scheme: dark) {
-  body {
-    background: #2d3239;
-    color: #75715e;
-  }
-
-@media screen and (max-width: 768px) {
-    body{
-        background: whitesmoke;
-        overflow-x: hidden;
-    }
-
     .landing-text h1{
         font-size: 5rem;
     }
