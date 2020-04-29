@@ -44,7 +44,7 @@ img{
   font-size: .9rem;
   letter-spacing:.1rem;
   background-color: black;
-  font-color: #ffffff;
+  font-color: white;
 }
 
 .navbar-brand img {
@@ -113,6 +113,7 @@ img{
 
 .narrow {
   width: 75%;
+  margin: 1.5rem auto;
   padding-top: 2rem;
 }
 .narrow h1 {
@@ -139,11 +140,19 @@ img{
 /*--- Start Specialties --*/
 .our-special{
     margin-top: 8rem;
-    display: grid;}
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    text-align: center;
+}
 
 .special{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
 }
 
 .special h1{
@@ -185,6 +194,7 @@ img{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin: 1rem -2px 1rem 0;
   }
 
 .member-success-description h1{
@@ -192,12 +202,14 @@ img{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin: 1rem -2px 1rem 0;
 }
 
 .success-description h2{
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: 300;
+    margin: 2rem 0;
 }
 
 .member-success-description .cta{
@@ -275,6 +287,13 @@ img{
 
 /*--- Media Queries --*/
 
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background: #2d3239;
+    color: #75715e;
+  }
+
     .landing-text h1{
         font-size: 5rem;
     }
@@ -295,6 +314,8 @@ img{
         flex-direction: column;
     }
 
+    li{
+        margin: 2rem 0;
     }
 
     .nav-link{
