@@ -1,13 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+/*Start global*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+}
 
 
 body{
   overflow-x: hidden;
+  width: 100%;
+  height: 100%;
   font-family: 'Lato', sans-serif;
   color: #333;
   background: #ffffff;
+  background-size: cover;
+
 }
+
+section{
+    padding: 6rem 0;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+p{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+img{
+    width: 100%;
+}
+/*--- End global --*/
+
 
 /*--- Navigation --*/
 .navbar {
@@ -122,6 +159,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
     padding: 2rem;
 }
@@ -131,8 +169,6 @@ body{
     text-align: center;
     color: #5763e6;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    margin: 1rem -2px 1rem 0;
 }
 
 
