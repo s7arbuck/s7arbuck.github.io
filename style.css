@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  background: #ffffff;
+}
+
+/*--- Navigation --*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing:.1rem;
+  background-color: black;
+  font-color: white;
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
+.navbar-nav li {
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #5763e6;
+}
+
+
+/*--- Landing Page --*/
+
+.home-inner {
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: black;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 3.8rem;
+  color: #5763e6;
+  font-weight: 700;
+  letter-spacing .3rem;
+  padding-bottom: 1rem;
+  }
+.caption h3 {
+  font-style: 2rem;
+  color: #5763e6;
+  font-weight: 700;
+  text-shadow: .1rg .1rem .5rem black;
+  padding-bottom: 1.6rem;
+  }
+  .btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #505962;
+  background-color: #1EBBA3;
+  color: white;
+  }
+
+  .btn-lg:hover,
+  .btn-lg:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+  }
+
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #505962;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+/*--- Start Specialties --*/
+.our-special{
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    text-align: center;
+}
+
+.special{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.special h1{
+    margin-top: 8rem;
+    text-align: center;
+    color: #5763e6;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 1rem -2px 1rem 0;
+}
+
+
+/*--- End specialties --*/
+
+
+
+/*--- Start Member Success --*/
+.success-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.success-item:last-child{
+    margin-bottom: 0;
+}
+
+.success-img{
+    width: 50rem;
+    flex: 1;
+}
+
+.success-description{
+    flex: 1;
+}
+
+.success-description h3{
+    margin-top: 8rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 1rem -2px 1rem 0;
+
+.success-description h1{
+    margin-top: 8rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 1rem -2px 1rem 0;
+}
+.success-description h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 2rem 0;
+}
+
+.success-description h6{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.3;
+}
+
+.success-description .cta{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #3883ff;
+    transition: color 650ms;
+}
+
+.success-description .cta:hover{
+    color: #2f67cd;
+}
+
+/*--- End Member Success --*/
+
+/*--- Start Join --*/
+
+.join-caption {
+  width: 100%;
+  max-width: 100%;
+  z-index: 1;
+  color: black;
+  text-transform: uppercase;
+}
+.join-caption h1 {
+  font-size: 3.8rem;
+  color: #5763e6;
+  font-weight: 700;
+  letter-spacing .3rem;
+  padding-bottom: 1rem;
+  }
+.join-caption h3 {
+  font-style: 2rem;
+  color: #5763e6;
+  font-weight: 700;
+  text-shadow: .1rg .1rem .5rem black;
+  padding-bottom: 1.6rem;
+  }
+.join-btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #505962;
+  background-color: #1EBBA3;
+  color: white;
+  }
+
+.join-btn-lg:hover,
+.join-btn-lg:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+  }
+
+/*--- End Join --*/
+
+
+@keyframes pulse {
+    0%{
+        box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.99)
+    }
+    70%{
+        box-shadow: 0 0 0 2rem rgba(46, 204, 113, 0)
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(46, 204, 113, 0)
+    }
+}
+
+/*--- Media Queries --*/
+
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background: #2d3239;
+    color: #75715e;
+  }
+
+@media screen and (max-width: 768px) {
+    body{
+        background: whitesmoke;
+        overflow-x: hidden;
+    }
+
+    .landing-text h1{
+        font-size: 5rem;
+    }
+
+    .landing-text h6{
+        font-size: 1.8rem;
+    }
+    
+    .landing-text h2{
+        font-size: 1.8rem;
+    }
+    
+    .landing-text h5{
+        font-size: 1.3rem;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    li{
+        margin: 2rem 0;
+    }
+
+    .nav-link{
+        font-size: 4.5rem;
+    }
+
+    .section-heading h1{
+        font-size: 3rem;
+    }
+    .section-heading h3{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .menu-toggler{
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .landing-text h1{
+        font-size: 4rem;
+    }
+
+    .landing-text h6{
+        font-size: 1.6rem;
+    }
+    
+    .landing-text h2{
+        font-size: 1.6rem;
+    }
+    
+    .landing-text h5{
+        font-size: 1.1rem;
+    }
+
+    .nav-link{
+        font-size: 3.5rem;
+    }
+
+    .up{
+        right: 2rem;
+    }
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
