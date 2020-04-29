@@ -183,14 +183,7 @@ body{
     margin: 2rem 0;
 }
 
-.success-description h6{
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 300;
-    opacity: 0.3;
-}
-
-.success-description .cta{
+.member-success-description .cta{
     text-decoration: none;
     display: inline-block;
     margin-top: 2.5rem;
@@ -200,7 +193,7 @@ body{
     transition: color 650ms;
 }
 
-.success-description .cta:hover{
+.member-success-description .cta:hover{
     color: #2f67cd;
 }
 
