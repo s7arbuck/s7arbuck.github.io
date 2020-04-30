@@ -49,6 +49,7 @@ margin-right: 0px!important;
 
 .caption {
   position: absolute;
+  max-width: 100%;
   top: 38%;
   color: black;
   text-transform: uppercase;
@@ -172,6 +173,7 @@ margin-right: 0px!important;
 }
 /*--- Start Specialties --*/
 .our-special{
+    max-width: 100%;
     margin-top: 3rem;
     display: grid | inline-grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -181,6 +183,7 @@ margin-right: 0px!important;
 
 .special{
     display: flex;
+    max-width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
