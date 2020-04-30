@@ -45,6 +45,39 @@ img{
 }
 /*--- End global --*/
 
+/*--- Start reuseable --*/
+.container{
+    width: 90%;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-heading{
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.section-heading h1{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.section-heading h6{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.has-margin-right{
+    margin-right: 5rem;
+}
+
+/*--- End reusable --*/
+
 
 /*--- Navigation --*/
 .navbar {
