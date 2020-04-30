@@ -66,37 +66,7 @@ margin-right: 0px!important;
           transform: translateZ(0);
   will-change: transform;
 }
-/*--- Start Specialties --*/
-.our-special{
-    margin-top: 8rem;
-    display: grid | inline-grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-gap: 2.5rem;
-    text-align: center;
-}
 
-.special{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-}
-
-.special h1{
-    margin-top: 8rem;
-    text-align: center;
-    color: #5763e6;
-    text-transform: uppercase;
-}
-
-.special p{
-text-align: center;
-color: #000000;
-]
-
-
-/*--- End specialties --*/
 
 /*--- Start Member Success --*/
 .member-success-item{
