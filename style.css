@@ -86,7 +86,8 @@ img{
   font-size: .9rem;
   letter-spacing:.1rem;
   background-color: black;
-  font-color: white;
+  text-color: #000000;
+  font-color: #000000;
 }
 
 .navbar-brand img {
