@@ -67,111 +67,99 @@ margin-right: 0px!important;
   will-change: transform;
 }
 
-/*--- Start Member Success --*/
-.member-success-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 8rem;
-    margin-bottom: 5rem;
-}
-  padding-bottom: 1rem;
+/*--- Media Queries --*/
 
-.member-success-item:last-child{
-    margin-top: 8rem;
-}
 
-.member-success-img{
-    margin-top: 8rem;
-    width: 50rem;
-    flex: 1;
-}
-
-.member-success-description{
-    flex: 1;
-}
-
-.member-success-description h3{
-    margin-top: 8rem;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin: 1rem -2px 1rem 0;
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background: #2d3239;
+    color: #75715e;
   }
 
-.member-success-description h1{
-    margin-top: 8rem;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin: 1rem -2px 1rem 0;
+    .landing-text h1{
+        font-size: 5rem;
+    }
+
+    .landing-text h6{
+        font-size: 1.8rem;
+    }
+    
+    .landing-text h2{
+        font-size: 1.8rem;
+    }
+    
+    .landing-text h5{
+        font-size: 1.3rem;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .nav-link{
+        font-size: 4.5rem;
+    }
+
+    .section-heading h1{
+        font-size: 3rem;
+    }
+    .section-heading h3{
+        font-size: 3rem;
+    }
 }
 
-.success-description h2{
-    font-size: 3rem;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin: 2rem 0;
+@media screen and (max-width: 600px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .menu-toggler{
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .landing-text h1{
+        font-size: 4rem;
+    }
+
+    .landing-text h6{
+        font-size: 1.6rem;
+    }
+    
+    .landing-text h2{
+        font-size: 1.6rem;
+    }
+    
+    .landing-text h5{
+        font-size: 1.1rem;
+    }
+
+    .nav-link{
+        font-size: 3.5rem;
+    }
+
+    .up{
+        right: 2rem;
+    }
 }
 
-.member-success-description .cta{
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #3883ff;
-    transition: color 650ms;
-}
 
-.member-success-description .cta:hover{
-    color: #2f67cd;
-}
+/*============ BOOTSTRAP BREAK POINTS:
 
-/*--- End Member Success --*/
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
 
-/*--- Start Join --*/
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
 
-.join-caption {
-  width: 100%;
-  max-width: 100%;
-  z-index: 1;
-  color: black;
-  text-transform: uppercase;
-}
-.join-caption h1 {
-  font-size: 3.8rem;
-  color: #5763e6;
-  font-weight: 700;
-  letter-spacing .3rem;
-  padding-bottom: 1rem;
-  }
-.join-caption h3 {
-  font-style: 2rem;
-  color: #5763e6;
-  font-weight: 700;
-  text-shadow: .1rg .1rem .5rem black;
-  padding-bottom: 1.6rem;
-  }
-.join-btn-lg {
-  border-width: medium;
-  border-radius: 0;
-  padding: .6rem 1.3rem;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  margin: 1rem;
-  border-color: #505962;
-  background-color: #1EBBA3;
-  color: white;
-  }
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
 
-.join-btn-lg:hover,
-.join-btn-lg:focus {
-  border-color: #189582;
-  background-color: #189582;
-  color: white;
-  }
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
 
-/*--- End Join --*/
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
 
-
+=============*/
