@@ -301,7 +301,47 @@ color: #000000;
 /*--- Media Queries --*/
 
 
-@media screen and (max-width: 600px) {
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background: #2d3239;
+    color: #75715e;
+  }
+
+    .landing-text h1{
+        font-size: 5rem;
+    }
+
+    .landing-text h6{
+        font-size: 1.8rem;
+    }
+    
+    .landing-text h2{
+        font-size: 1.8rem;
+    }
+    
+    .landing-text h5{
+        font-size: 1.3rem;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    li{
+        margin: 2rem 0;
+    }
+
+    .nav-link{
+        font-size: 4.5rem;
+    }
+
+    .section-heading h1{
+        font-size: 3rem;
+    }
+    .section-heading h3{
+        font-size: 3rem;
+    }
+}
 
     body{
         overflow-x: hidden;
