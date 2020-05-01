@@ -126,6 +126,14 @@ header{
     user-select: none;
 }
 
+.landing-text h3{
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+    user-select: none;
+}
+
 
 .btn {
     display: inline-block;
