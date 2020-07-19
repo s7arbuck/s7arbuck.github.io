@@ -279,16 +279,16 @@ a.btn {
   font-size: 3rem;
   text-transform: uppercase;
   margin: 1rem;
-  border-color: #505962;
-  background-color: #1A1A1A;
-  color: #35C4FE;
+  border-color: #35C4FE;
+  background-color: #35C4FE;
+  color: #1A1A1A;
   }
 
 .join-btn-lg:hover,
 .join-btn-lg:focus {
-  border-color: #189582;
-  background-color: #189582;
-  color: white;
+  border-color: #35C4FE;
+  background-color: #35C4FE;
+  color: #1A1A1A;
   }
 
 /*--- End Join --*/
