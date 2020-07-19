@@ -140,7 +140,7 @@ header{
     transition: all 650ms;
     color: #fff;
     border-color: #505962;
-    background-color: #1EBBA3;
+    background-color: #35C4FE;
     text-transform: uppercase;
     font-size: 3rem;
     font-weight: lighter;
@@ -154,7 +154,7 @@ a.btn {
     display: inline-block;
     transition: all 650ms;
     border-color: #189582;
-    background-color: #189582;
+    background-color: #35C4FE;
     text-transform: uppercase;
     font-size: 3rem;
     font-weight: lighter;
@@ -164,9 +164,9 @@ a.btn {
 }
 
 .main-btn:hover{
-  border-color: #189582;
-  background-color: #189582;
-  color: white;
+  border-color: #05548D;
+  background-color: #05548D;
+  color: #1A1A1A;
 }
 {
     transform: translateY(0);
@@ -286,8 +286,8 @@ a.btn {
 
 .join-btn-lg:hover,
 .join-btn-lg:focus {
-  border-color: #35C4FE;
-  background-color: #35C4FE;
+  border-color: #05548D;
+  background-color: #05548D;
   color: #1A1A1A;
   }
 
