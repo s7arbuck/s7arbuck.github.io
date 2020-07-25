@@ -345,12 +345,6 @@ body{
     gap: 40px;
     text-align: center;
 }
-
-.twitter a img{
-    display: inline-block;
-    vertical-align: middle;
-}
-
 .twitter a {
     display: inline-block;
     text-decoration: none;
@@ -358,11 +352,17 @@ body{
     color: #077ACB;
 }
 
+.twitter a img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
 .instagram a{
     display: inline-block;
     text-decoration: none;
     font-size: 20px;
-    color: rgba(169,169,169,1);
+    color: #077ACB;
 }
 
 .instagram a img{
