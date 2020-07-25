@@ -309,6 +309,11 @@ a.btn {
 
 /*--- Start Media --*/
 
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background: #2d3239;
+    color: #75715e;
+  }
 .preload{
     background-color: #0e0e10;
     position: fixed;
@@ -347,7 +352,7 @@ a.btn {
     z-index: -5;
 }
 
-
+  
 
 @media screen and (max-width: 768px) {
     body{

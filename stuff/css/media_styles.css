@@ -1,0 +1,279 @@
+@media screen and (max-width: 751px) {
+
+    .body{
+        touch-action: manipulation;
+    }
+
+    .container{
+        width: 100%;
+        gap: 200px;
+    }
+    
+    .nav-bar{
+        padding: 20px;
+        z-index: 5;
+    }
+
+    .nav-bar .collapse-button{
+        grid-area: colp-start / colp-start / colp-end / colp-end;
+        display: block;
+    }
+
+    .nav-bar .hamburger{
+        float: right;
+    }
+
+    .nav-bar .nav-links{
+        width: 0;
+        background-color: #0e0e10;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        height: 100%;
+        display: none;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, min-content);
+        grid-template-areas: "colp"
+                             "home"
+                             "tac"
+                             "priv"
+                             "dash";
+        gap: 0px;
+    }
+
+
+
+    .nav-bar .nav-links #img-container{
+        display: block;
+    }
+
+    .nav-bar .nav-links img{
+        display: block;
+        margin: 20px auto;
+        width: 100px;
+    }
+    .nav-bar .nav-links span:nth-child(5){
+        background-color: transparent;
+    }
+    .nav-bar .nav-links span:nth-child(5) a{
+        color: white;
+        font-weight: 400;
+    }
+    .active:after{
+        transform: scaleX(0.5);  
+        transition: ease-in 0.1s;
+    }
+
+    .nav-bar .nav-links span:nth-child(2), .nav-bar .nav-links span:nth-child(3), .nav-bar .nav-links span:nth-child(4), .nav-bar .nav-links span:nth-child(5){
+        margin: 30px 0 0 0 !important;
+    }
+
+    .nav-bar .nav-links span{
+        display: none;
+        margin: 30px auto;
+        padding: 0;
+    }
+
+    .nav-bar .nav-links span:nth-child(2):after, .nav-bar .nav-links span:nth-child(3):after, .nav-bar .nav-links span:nth-child(4):after, .nav-bar .nav-links span:nth-child(5):after{
+        display:block;
+        content: '';
+        border-bottom: solid 3px #35C4FE;
+        transform: scaleX(0);  
+        transition: ease-in 0.1s;
+    }
+
+    .nav-bar .nav-links span:nth-child(5):hover{
+        transform: scaleX(0);  
+        background-color: transparent;
+    }
+
+    .nav-bar .collapse-button span{
+        display: block;
+        margin: 5px;
+        width: 30px;
+        height: 5px;
+        padding: 0;
+        background-color: #35C4FE;
+    }
+
+    .nav-bar .collapse-button img{
+        display: block;
+        float: left;
+        width: 25px;
+    }
+
+    .nav-bar span{
+        font-size: 15px;
+    }
+
+    .landing{
+        grid-area: landing-start / landing-start / landing-end / landing-end;
+        margin: -100px auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "leftbox";
+        gap: 25px;
+    }
+    
+    .left-box{
+        grid-area: leftbox-start / leftbox-start / leftbox-end / leftbox-end;
+    }
+    
+    .left-content{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    
+    
+    .left-content h1{
+        margin-bottom: 50px;
+        font-size: 50px;
+        font-family: "SF Pro Display";
+    }
+    
+    .left-content p{
+        color: rgba(169,169,169,1);
+        margin: 0 auto 40px auto;
+        font-size: 20px;
+        transform-style: preserve-3d;
+        pointer-events: none;
+        width: 80%;
+        line-height: 30px;
+    }
+    
+    .left-content span{
+        display: block;
+        color: rgba(169,169,169,1);
+        margin: 0 auto 40px auto;
+        font-size: 20px;
+        transform-style: preserve-3d;
+        pointer-events: none;
+    }
+    
+    .left-content p:nth-child(2){
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0.8;
+        z-index: -1;
+        color: #c22f5b;
+        content: "01001010 01101111 01101001 01101110 00100000 01101001 01101110 00100000 01101111 01101110 00100000 01110100 01101000 01100101 00100000 01100110 01110101 01101110 00101110";
+    }
+    
+    .left-content p:nth-child(3){
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0.8;
+        z-index: -2;
+        color: #2e2d8b;
+        content: "01001010 01101111 01101001 01101110 00100000 01101001 01101110 00100000 01101111 01101110 00100000 01110100 01101000 01100101 00100000 01100110 01110101 01101110 00101110";
+    }
+    
+    .left-content button{
+        background-color: #35C4FE;
+        border: none;
+        font-size: 20px;
+        padding: 10px 40px;
+        border-radius: 3px;
+        cursor: pointer;
+        outline: none;
+        transition: transform 0.2s ease-in-out;
+        color: black;
+        font-weight: 700;
+    }
+    
+    .left-content button:hover{
+        transform: scale(1.1);
+        background-color: #35C4FE;
+    }
+    
+    .right-box{
+        display: none;
+    }
+
+    .info{
+        grid-area: info-start / info-start / info-end / info-end;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "card1"
+                             "card2"
+                             "card3"
+                             "card4"
+                             "card5"
+                             "card6"
+                             "card7"
+                             "card8";
+        gap: 25px;
+        margin: 0 auto;
+    }
+
+    .card-content h1{ font-size: 30px;}
+    .card-content p { font-size: 15px;}
+
+    .social{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, max-content);
+        grid-template-areas: "twitter"
+                             "instagram";
+        gap: 10px;
+    }
+
+    .footer{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .twitter a img{
+        display: block;
+        margin: 0 auto;
+    }
+    .instagram a img{
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .preload{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+    }
+
+    .err{
+        display: block; margin: 50px auto 0 auto; text-align: center;
+    }
+
+    .tos-content{
+        margin: 50px auto 50px auto;
+    }
+
+
+    @keyframes glitch2{
+        0% {
+            transform: translate(-50%, 0);
+        }
+        20% {
+            transform: translate(calc(-50% + -15px), 15px)
+        }
+        40% {
+            transform: translate(calc(-50% + -15px), -15px)
+        }
+        60% {
+            transform: translate(calc(-50% + 15px), 15px)
+        }
+        80% {
+            transform: translate(calc(-50% + 15px), -15px)
+        }
+        to {
+            transform: translate(-50%, 0);
+            display: none;
+        }
+    }
+}
