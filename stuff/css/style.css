@@ -335,7 +335,8 @@ body{
     gap: 20px;
 }
 
-.twitter a {
+.twitter p {
+    text-align: center;
     display: inline-block;
     text-decoration: none;
     font-size: 20px;
@@ -344,6 +345,7 @@ body{
 }
 
 .twitter a img{
+    text-align: center;
     display: inline-block;
     width: 153px;
     height: 153px;
@@ -352,7 +354,8 @@ body{
 }
 
 
-.instagram a {
+.instagram p {
+    text-align: center
     display: inline-block;
     text-decoration: none;
     font-size: 20px;
@@ -361,6 +364,7 @@ body{
 }
 
 .instagram a img{
+    text-align: center;
     display: inline-block;
     width: 153px;
     height: 153px;
