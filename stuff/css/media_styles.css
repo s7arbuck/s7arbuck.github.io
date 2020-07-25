@@ -222,10 +222,12 @@
     }
 
     .twitter a img{
+        text-align: center;
         display: block;
         margin: 0 auto;
     }
     .instagram a img{
+        text-align: center;
         display: block;
         margin: 0 auto;
     }
