@@ -221,7 +221,7 @@
         grid-template-rows: repeat(2, max-content);
         grid-template-areas: "twitter"
                              "instagram";
-        gap: 10px;
+        gap: 50px;
     }
 
     .footer{
