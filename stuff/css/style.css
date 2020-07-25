@@ -338,29 +338,34 @@ body{
 
 .twitter a {
     display: inline-block;
-    text-align: center;
+    vertical-align: center;
     text-decoration: none;
     font-size: 20px;
+    padding: 10px
     color: #077ACB;
 }
 
 .twitter a img{
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: center;
+    padding: 10px
+
 }
 
 
 .instagram a {
     display: inline-block;
-    text-align: center;
+    vertical-align: center;
     text-decoration: none;
     font-size: 20px;
+    padding: 10px
     color: #077ACB;
 }
 
 .instagram a img{
     display: inline-block;
-    vertical-align: middle;
+    padding: 10px
+    vertical-align: center;
 }
 
 /* end of footer section */
