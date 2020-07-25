@@ -216,14 +216,6 @@
     .card-content h1{ font-size: 30px;}
     .card-content p { font-size: 15px;}
 
-    .social{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, max-content);
-        grid-template-areas: "twitter"
-                             "instagram";
-        gap: 50px;
-    }
-
     .footer{
         display: block;
         margin: 0 auto;
