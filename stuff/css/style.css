@@ -336,15 +336,6 @@ body{
     gap: 20px;
 }
 
-.social{
-    grid-area: social-start / social-start / social-end / social-end;
-    display: grid;
-    grid-template-columns: repeat(2, max-content);
-    grid-template-rows: auto;
-    grid-template-areas: "twitter instagram";
-    gap: 40px;
-    text-align: center;
-}
 .twitter a {
     display: inline-block;
     text-decoration: none;
