@@ -345,6 +345,7 @@ body{
 }
 
 .twitter a img{
+    vertical-align: center;
     text-align: center;
     display: inline-block;
     width: 153px;
@@ -357,13 +358,13 @@ body{
 .instagram p{
     text-align: center;
     display: inline-block;
-    text-decoration: none;
     font-size: 20px;
     padding: 5px;
     color: #077ACB;
 }
 
 .instagram a img{
+    vertical-align: center;
     text-align: center;
     display: inline-block;
     width: 153px;
