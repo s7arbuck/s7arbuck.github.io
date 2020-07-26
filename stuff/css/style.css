@@ -150,6 +150,14 @@ body{
 
 .nav-bar .collapse-button {display: none;}
 
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: $zindex-fixed;
+}
+
 .nav-links{
     text-align: center;
     display: grid;
@@ -157,6 +165,11 @@ body{
     grid-template-rows: 1fr;
     gap: 10px;
     grid-template-areas: ". home tac priv dash";
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: $zindex-fixed;
 }
 
 .nav-links #img-container{
@@ -174,10 +187,20 @@ body{
     cursor: pointer;
     padding: 10px 10px 5px 10px;
     transition: ease-in 0.1s;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: $zindex-fixed;
 }
 
 .nav-bar .nav-links span a{
     text-decoration: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: $zindex-fixed;
 }
 
 
@@ -215,6 +238,11 @@ body{
     border-bottom: solid 3px #077ACB;
     transform: scaleX(0);  
     transition: ease-in 0.1s;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: $zindex-fixed;
 }
 
 .nav-bar .nav-links span:nth-child(2):hover:after, .nav-bar .nav-links span:nth-child(3):hover:after, .nav-bar .nav-links span:nth-child(4):hover:after{
