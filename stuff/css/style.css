@@ -308,11 +308,17 @@ body{
 }
 
 .card{opacity: 0;}
-.card-content { text-align: center; width: 153px; height: 153px; padding: 5px;}
+.card-content { text-align: center; }
 .card-content h1 {font-family: 'SF Pro Display'; margin-top: -30px;margin-bottom: 20px; font-size: 40px; }
 .card-content p { color: rgba(169,169,169,1); display: block; margin: 0 auto; width: 80%; line-height: 30px; font-size: 18px;}
 
-.card img{ width: 200px; display: block; margin: 0 auto;}
+.card img{
+    width: 153px; 
+    height: 153px; 
+    padding: 5px;
+    display: block; 
+    margin: 0 auto;
+}
 
 .card:nth-child(1){grid-area: card1-start / card1-start / card1-end / card1-end;}
 .card:nth-child(2){grid-area: card2-start / card2-start / card2-end / card2-end;}
