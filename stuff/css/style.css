@@ -308,7 +308,7 @@ body{
 }
 
 .card{opacity: 0;}
-.card-content { text-align: center; }
+.card-content { text-align: center; width: 153px; height: 153px; padding: 5px;}
 .card-content h1 {font-family: 'SF Pro Display'; margin-top: -30px;margin-bottom: 20px; font-size: 40px; }
 .card-content p { color: rgba(169,169,169,1); display: block; margin: 0 auto; width: 80%; line-height: 30px; font-size: 18px;}
 
