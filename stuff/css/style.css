@@ -217,7 +217,7 @@ a.btn {
     transform: translateY(-50%);
 }
 .header img{ 
-    margin-top: 400px;
+    margin-top: 50%;
     width: 300px; 
     display: inline-block; 
     position: center
