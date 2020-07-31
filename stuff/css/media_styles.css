@@ -201,20 +201,20 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: "card1"
-                             "card2"
-                             "card3"
-                             "card4"
-                             "card5"
-                             "card6"
-                             "card7"
-                             "card8";
+        grid-template-areas: "cardd1"
+                             "cardd2"
+                             "cardd3"
+                             "cardd4"
+                             "cardd5"
+                             "cardd6"
+                             "cardd7"
+                             "cardd8";
         gap: 25px;
         margin: 0 auto;
     }
 
-    .card-content h1{ font-size: 30px;}
-    .card-content p { font-size: 15px;}
+    .cardd-content h1{ font-size: 30px;}
+    .cardd-content p { font-size: 15px;}
 
     .footer{
         display: block;

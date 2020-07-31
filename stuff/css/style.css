@@ -279,34 +279,34 @@ a.btn {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "card1 card2"
-                         "card3 card4"
-                         "card5 card6"
-                         "card7 card8";
+    grid-template-areas: "cardd1 cardd2"
+                         "cardd3 cardd4"
+                         "cardd5 cardd6"
+                         "cardd7 cardd8";
     gap: 25px;
     margin: 0 auto;
 }
 
-.card{opacity: 0;}
-.card-content { text-align: center; }
-.card-content h1 {font-family: 'SF Pro Display'; margin-top: 5px;margin-bottom: 20px; font-size: 40px; }
-.card-content p { color: rgba(169,169,169,1); display: block; margin: 0 auto; width: 80%; line-height: 30px; font-size: 18px;}
+.cardd{opacity: 0;}
+.cardd-content { text-align: center; }
+.cardd-content h1 {font-family: 'SF Pro Display'; margin-top: 5px;margin-bottom: 20px; font-size: 40px; }
+.cardd-content p { color: rgba(169,169,169,1); display: block; margin: 0 auto; width: 80%; line-height: 30px; font-size: 18px;}
 
-.card img{
+.cardd img{
     width: 153px; 
     height: 153px; 
     display: block; 
     margin: 0 auto;
 }
 
-.card:nth-child(1){grid-area: card1-start / card1-start / card1-end / card1-end;}
-.card:nth-child(2){grid-area: card2-start / card2-start / card2-end / card2-end;}
-.card:nth-child(3){grid-area: card3-start / card3-start / card3-end / card3-end;}
-.card:nth-child(4){grid-area: card4-start / card4-start / card4-end / card4-end;}
-.card:nth-child(5){grid-area: card5-start / card5-start / card5-end / card5-end;}
-.card:nth-child(6){grid-area: card6-start / card6-start / card6-end / card6-end;}
-.card:nth-child(7){grid-area: card7-start / card7-start / card7-end / card7-end;}
-.card:nth-child(8){grid-area: card8-start / card8-start / card8-end / card8-end;}
+.cardd:nth-child(1){grid-area: cardd1-start / cardd1-start / cardd1-end / cardd1-end;}
+.cardd:nth-child(2){grid-area: cardd2-start / cardd2-start / cardd2-end / cardd2-end;}
+.cardd:nth-child(3){grid-area: cardd3-start / cardd3-start / cardd3-end / cardd3-end;}
+.cardd:nth-child(4){grid-area: cardd4-start / cardd4-start / cardd4-end / cardd4-end;}
+.cardd:nth-child(5){grid-area: cardd5-start / cardd5-start / cardd5-end / cardd5-end;}
+.cardd:nth-child(6){grid-area: cardd6-start / cardd6-start / cardd6-end / cardd6-end;}
+.cardd:nth-child(7){grid-area: cardd7-start / cardd7-start / cardd7-end / cardd7-end;}
+.cardd:nth-child(8){grid-area: cardd8-start / cardd8-start / cardd8-end / cardd8-end;}
 
 /* end of info section */
 
