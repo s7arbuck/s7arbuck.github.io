@@ -285,6 +285,7 @@ a.btn {
                          "cardd7 cardd8";
     gap: 25px;
     margin: 0 auto;
+    padding-top: 50px
 }
 
 .cardd{opacity: 1;}
