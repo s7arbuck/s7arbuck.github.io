@@ -287,7 +287,7 @@ a.btn {
     margin: 0 auto;
 }
 
-.cardd{opacity: 0;}
+.cardd{opacity: 1;}
 .cardd-content { text-align: center; }
 .cardd-content h1 {font-family: 'SF Pro Display'; margin-top: 5px;margin-bottom: 20px; font-size: 40px; }
 .cardd-content p { color: rgba(169,169,169,1); display: block; margin: 0 auto; width: 80%; line-height: 30px; font-size: 18px;}
