@@ -117,16 +117,13 @@ body{
 .container{
     display: grid;
     width: 80%;
-    min-height: 100%;
+    min-height: 75%;
     height: auto;
     margin: 0 auto;
     grid-template-columns: .5fr;
     grid-template-rows:  .5f .5fr .5fr .5fr;
     grid-template-areas: "nav"
                          "home"
-                         "info"
-                         "testimonials"
-                         "faqs"
                          "fiiter";
     gap: 5%;
 }
@@ -217,7 +214,7 @@ a.btn {
     transform: translateY(-50%);
 }
 .header img{ 
-    margin-top: 250px;
+    margin-top: 50%;
     width: 300px; 
     display: inline-block; 
     position: center
