@@ -120,8 +120,8 @@ body{
     min-height: 100%;
     height: auto;
     margin: 0 auto;
-    grid-template-columns: 1fr;
-    grid-template-rows:  1f 1fr 1fr 1fr;
+    grid-template-columns: .5fr;
+    grid-template-rows:  .5f .5fr .5fr .5fr;
     grid-template-areas: "nav"
                          "home"
                          "info"
