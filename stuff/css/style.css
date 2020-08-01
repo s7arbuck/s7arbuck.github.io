@@ -1,23 +1,21 @@
 /* fallback */
 @font-face {
-    font-family: 'Material Icons';
+    font-family: 'helvetica neue';
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/materialIcons.woff2") format('woff2');
 }
   
 @font-face {
-    font-family: 'Bank Gothic';
+    font-family: 'helvetica neue';
     font-style: normal;
     font-weight: 400;
     src: url("../fonts/Bank_Gothic_Medium.otf");
 }
 
 @font-face {
-    font-family: 'SF Pro Display';
+    font-family: 'helvetica neue';
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/SF_Pro_Display_Regular.otf");
 }
 
 @font-face {
@@ -28,7 +26,7 @@
 }
 
 .material-icons {
-  font-family: 'Material Icons';
+  font-family: 'helvetica neue';
   font-weight: normal;
   font-style: normal;
   font-size: 24px;
@@ -56,7 +54,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'helvetica neue', sans-serif;
     color: #fff;
 }
 
@@ -228,7 +226,7 @@ a.btn {
     text-align: center;
     margin-bottom: 20px;
     font-size: 55px;
-    font-family: "SF Pro Display";
+    font-family: "Helvetica Neue";
 }
 
 .header h2{
@@ -289,7 +287,7 @@ a.btn {
 
 .cardd{opacity: 1;}
 .cardd-content { text-align: center; }
-.cardd-content h1 {font-family: 'SF Pro Display'; margin-top: 5px;margin-bottom: 20px; font-size: 40px; }
+.cardd-content h1 {font-family: 'helvetica neue'; margin-top: 5px;margin-bottom: 20px; font-size: 40px; }
 .cardd-content p { color: rgba(169,169,169,1); display: block; margin: 0 auto; width: 80%; line-height: 30px; font-size: 18px;}
 
 .cardd img{
