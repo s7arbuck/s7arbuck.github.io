@@ -307,6 +307,51 @@ a.btn {
 
 /* end of info section */
 
+/* testimonials section */
+
+.testimonials{
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.testimonials img{ 
+    margin-top: 110%;
+    width: 300px; 
+    display: inline-block; 
+    position: center
+}
+
+
+.testimonials h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 55px;
+    font-family: "Helvetica Neue";
+}
+
+.testimonials h2{
+    color: rgba(169,169,169,1);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    transform-style: preserve-3d;
+    pointer-events: none;
+    line-height: 30px;
+}
+
+.testimonials span{
+    display: block;
+    color: rgba(169,169,169,1);
+    margin-bottom: 20px;
+    font-size: 24px;
+    transform-style: preserve-3d;
+    pointer-events: none;
+}
+}
+
+
+/* end of testimonials section */
+
 /* footer section */
 .footer{
     grid-area: foot-start / foot-start / foot-end / foot-end;
