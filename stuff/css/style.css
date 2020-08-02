@@ -147,8 +147,8 @@ body{
     position: fixed;
     width: 100%;
     text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing:.1rem;
+    font-weight: 100;
+    font-size: 1rem;
     background-color: black;
     font-color: #000000;
 }
@@ -161,8 +161,7 @@ body{
 }
 .navbar-dark .navbar-nav .nav-link {
   color: white;
-  padding-top: .2rem;
-  font-size: 12px
+  padding-top: .1rem;
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
