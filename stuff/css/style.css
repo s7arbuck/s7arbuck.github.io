@@ -349,6 +349,30 @@ a.btn {
 }
 }
 
+.testimonials-box {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+    color: #000;
+    transition: 0.2s all;
+}
+
+.testimonials-box .name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.testimonials-box .review {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.testimonials-box:hover {
+        background-color: #601db6;
+        color: #fff;
+}
+
+
 
 /* end of testimonials section */
 
