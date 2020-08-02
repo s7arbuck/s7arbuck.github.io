@@ -124,10 +124,7 @@ body{
     grid-template-rows:  1f 1fr 1fr 1fr;
     grid-template-areas: "nav"
                          "home"
-                         "info"
-                         "testimonials"
-                         "faqs"
-                         "fiiter";
+
     gap: 5%;
 }
 
@@ -217,7 +214,7 @@ a.btn {
     transform: translateY(-50%);
 }
 .header img{ 
-    margin-top: 150%;
+    margin-top: 110%;
     width: 300px; 
     display: inline-block; 
     position: center
