@@ -180,7 +180,7 @@ body{
     font-size: 3rem;
     font-weight: lighter;
     margin-top: 3.5rem;
-    padding: 1rem 2rem;
+    padding: 2.5rem 6rem;
     border-radius: 3rem;
 }
 
@@ -217,7 +217,7 @@ a.btn {
     transform: translateY(-50%);
 }
 .header img{ 
-    margin-top: 50%;
+    margin-top: 150%;
     width: 300px; 
     display: inline-block; 
     position: center
