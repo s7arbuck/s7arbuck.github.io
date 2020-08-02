@@ -168,7 +168,6 @@ header{
 .navbar-dark .navbar-nav .nav-link {
   color: white;
   padding-top: .8rem;
-  font-size: 10px;
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
