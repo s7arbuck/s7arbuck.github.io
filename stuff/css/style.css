@@ -147,22 +147,22 @@ body{
     position: fixed;
     width: 100%;
     text-transform: uppercase;
-    font-weight: 100;
-    font-size: .75rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing:.1rem;
     background-color: black;
     font-color: #000000;
-    padding: .3rem .5rem;
 }
 
 .navbar-brand img {
-  height: 1rem;
+  height: 2rem;
 }
 .navbar-nav li {
   padding-right: .7rem;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: white;
-  padding-top: .1rem;
+  padding-top: .8rem;
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -180,7 +180,7 @@ body{
     font-size: 3rem;
     font-weight: lighter;
     margin-top: 3.5rem;
-    padding: 2.5rem 6rem;
+    padding: 1rem 2rem;
     border-radius: 3rem;
 }
 
@@ -217,7 +217,7 @@ a.btn {
     transform: translateY(-50%);
 }
 .header img{ 
-    margin-top: 150%;
+    margin-top: 50%;
     width: 300px; 
     display: inline-block; 
     position: center
@@ -334,8 +334,8 @@ a.btn {
     vertical-align: center;
     text-align: center;
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 153px;
+    height: 153px;
     padding: 5px;
 
 }
@@ -353,8 +353,8 @@ a.btn {
     vertical-align: center;
     text-align: center;
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 153px;
+    height: 153px;
     padding: 5px;
 }
 
