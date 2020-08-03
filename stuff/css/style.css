@@ -71,10 +71,10 @@ body{
 }
 
 .slider{
-  width:800px;
-  margin:20px auto;
+  width:1000px;
+  margin:50px auto;
   text-align: center;
-  padding:20px;
+  padding:50px;
   color:white;
   .parent-slide{padding:15px;}
   img{display: block;margin:auto;}
