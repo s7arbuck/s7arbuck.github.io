@@ -1,4 +1,22 @@
 /* Slider */
+
+
+
+
+.wrapper{
+    width: 200px;
+    margin: 0 auto;
+}
+
+img{
+    width: 50%;
+}
+
+.logo{
+    width: 25%;
+
+}
+
 .slick-slider
 {
     position: relative;
