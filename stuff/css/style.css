@@ -80,6 +80,21 @@ body{
   img{display: block;margin:auto;}
 }
 
+.slider h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 100px;
+    font-family: "Helvetica Neue";
+}
+
+.slider p{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: "Helvetica Neue";
+}
+
+
 .js-loading *:not(.preload),
 .js-loading *:before:not(.preload),
 .js-loading *:after:not(.preload) {
