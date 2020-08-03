@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+:root {
+  --light-blue-1: #35C4FE;
+  --light-blue-2: #00FFFF;
+  --dark-blue-1: #05548D;
+  --dark-blue-2: #077ACB;
+  --grey-background: #1a1a1a;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: var(--grey-background);
+}
+
+.container {
+  margin: 1em;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.slide {
+  background-color: #2b2b2b;
+  padding: 1em;
+  color: var(--white);
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+
+.slide__img {
+  min-height: 12em;
+  max-height: 20em;
+  background-size: cover;
+}
+
+.slide h1 {
+  font-size: 1.6em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.slide p {
+  font-size: .8em;
+}
+
+.faq {
+  text-align: center;
+  padding: 2em 1em;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(26, 26, 26, 0.8)), to(rgba(27, 27, 27, 0.8))), url("https://s7arbuck.github.io/stuff/img/backg.jpg");
+  background-image: linear-gradient(to right bottom, rgba(26, 26, 26, 0.8), rgba(27, 27, 27, 0.8)), url("https://s7arbuck.github.io/stuff/img/backg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  font-size: 2em;
+  color: var(--white);
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+.accordian {
+  margin: 2em auto;
+}
+
+button.accordion {
+  width: 100%;
+  background-color: #030303;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding: 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: .98em;
+  color: var(--white);
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+  margin-bottom: 2px;
+}
+
+button.accordion:after {
+  content: url("../images/down-arrow.svg");
+  /* with class ModalCarrot ??*/
+  position: relative;
+  float: right;
+  fill: var(--white);
+  -webkit-transition: -webkit-transform 200ms ease-in-out;
+  transition: -webkit-transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+}
+
+button.accordion.is-open:after {
+  content: url("../images/down-arrow.svg");
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+button.accordion:hover,
+button.accordion.is-open {
+  background-color: var(--dark-blue-2);
+}
+
+.accordion-content {
+  background-color: rgba(3, 3, 3, 0.4);
+  color: var(--white);
+  font-size: .8em;
+  padding: 0 20px;
+  border-radius: 5px;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-in-out;
+  transition: max-height 0.2s ease-in-out;
+}
+
+@media only screen and (min-width: 750px) {
+  .slider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .slide {
+    margin-left: 1em;
+  }
+  .accordians {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 1em;
+    grid-column-gap: 2em;
+  }
+  .a-full {
+    grid-column: 1/-1;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 50%;
+  }
+  .accordian {
+    margin: .3em auto;
+  }
+}
+
+.terms {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(26, 26, 26, 0.2);
+  color: white;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.terms:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+.terms__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 85%;
+  height: 80vh;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#0779cb), to(#05548d));
+  background-image: linear-gradient(to right bottom, #0779cb, #05548d);
+  padding: 1.4em 5em;
+  overflow-y: scroll;
+}
+
+.terms__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: var(--white);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid var(--white);
+}
+
+.terms__header a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.terms__text h3 {
+  font-size: 1.7em;
+  line-height: .7;
+}
+
+.terms__text p {
+  font-size: .9em;
+}
+/*# sourceMappingURL=main.css.map */
