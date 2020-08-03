@@ -70,6 +70,16 @@ body{
     background-color: #0e0e10;
 }
 
+.slider{
+  width:800px;
+  margin:20px auto;
+  text-align: center;
+  padding:20px;
+  color:white;
+  .parent-slide{padding:15px;}
+  img{display: block;margin:auto;}
+}
+
 .js-loading *:not(.preload),
 .js-loading *:before:not(.preload),
 .js-loading *:after:not(.preload) {
@@ -309,15 +319,6 @@ a.btn {
 
 /* testimonials section */
 
-.slider{
-  width:400px;
-  margin:20px auto;
-  text-align: center;
-  padding:20px;
-  color:white;
-  .parent-slide{padding:15px;}
-  img{display: block;margin:auto;}
-}
 
 
 /* end of testimonials section */
