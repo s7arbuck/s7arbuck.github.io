@@ -309,69 +309,15 @@ a.btn {
 
 /* testimonials section */
 
-.testimonials{
-    text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
+.slider{
+  width:400px;
+  margin:20px auto;
+  text-align: center;
+  padding:20px;
+  color:white;
+  .parent-slide{padding:15px;}
+  img{display: block;margin:auto;}
 }
-.testimonials img{ 
-    margin-top: 110%;
-    width: 300px; 
-    display: inline-block; 
-    position: center
-}
-
-
-.testimonials h1{
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 55px;
-    font-family: "Helvetica Neue";
-}
-
-.testimonials h2{
-    color: rgba(169,169,169,1);
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 25px;
-    transform-style: preserve-3d;
-    pointer-events: none;
-    line-height: 30px;
-}
-
-.testimonials span{
-    display: block;
-    color: rgba(169,169,169,1);
-    margin-bottom: 20px;
-    font-size: 24px;
-    transform-style: preserve-3d;
-    pointer-events: none;
-}
-}
-
-.testimonials-box {
-    border-radius: 10px;
-    background-color: #fff;
-    padding: 10px;
-    color: #000;
-    transition: 0.2s all;
-}
-
-.testimonials-box .name {
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.testimonials-box .review {
-    font-size: 12px;
-    font-weight: 500;
-}
-
-.testimonials-box:hover {
-        background-color: #05548D;
-        color: #ffffff;
-}
-
 
 
 /* end of testimonials section */
